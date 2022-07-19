@@ -4,10 +4,21 @@ module.exports = {
     "./src/pages/**/*.{js,jsx,ts,tsx}",
     "./src/components/**/*.{js,jsx,ts,tsx}",
   ],
+  darkMode: "class",
   theme: {
-    extend: {},
+    nightwind: {
+      typography: true,
+
+    },
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/src/images/bg-color.jpg')",
+        'footer-texture': "url('/src/images/light.png')",
+      }
+    },
   },
   plugins: [
     'gatsby-plugin-postcss',
+    [require("nightwind")],
   ],
 }
