@@ -12,6 +12,7 @@ const Main = ({ pageTitle, children }) => {
       <Header />
       <main>
         {children}
+        bonjour les pros
       </main>
       <Footer/>
     </div>
