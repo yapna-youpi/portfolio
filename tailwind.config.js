@@ -14,6 +14,10 @@ module.exports = {
       backgroundImage: {
         'hero-pattern': "url('/src/images/bg-color.jpg')",
         'footer-texture': "url('/src/images/light.png')",
+      },
+      transitionDuration: {
+        '0': '0ms',
+        '2000': '2000ms',
       }
     },
   },

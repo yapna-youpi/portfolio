@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React,{useState,useEffect} from 'react'
 // import { Link } from 'gatsby'
 import Main from '../components/Main'
 import nightwind from "nightwind/helper"
@@ -6,8 +6,21 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 
 const Index = () => {
+  
+  const [data, setdata] = useState()
+  
+  useEffect(() => {
+    fetch(`https://geekflare.com/fr/finance/best-currency-exchange-apis/`)
+        .then((response) => response.json())
+        .then(({ surveyData }) => console.log(surveyData))
+        .catch((error) => console.log(error))
+
+       
+    
+  }, [data])
+
   return (
-    <main className=' bg-'>
+    <main className=''>
        <Main pageTitle="stallone portFolio">
 
             {/* <p>I'm making this by following the Gatsby Tutorial.</p>
