@@ -11,7 +11,7 @@ function Footer() {
         <div className='w-full bg-slate-800 dark:bg-slate-50 dark:text-black   style="background-image: url(../image/bg-color.png)'>
           <div className='flex bg-hero-pattern'>
               <div className="logoIcone">
-                {/* <FaBeer/> */}
+                {/* <FaBeer/> */}qcgkdsfwl Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, qui vero. Possimus explicabo accusantium mollitia repellendus aut nobis, atque molestiae numquam reiciendis ad distinctio neque quam dolorem voluptas nihil beatae?
               </div>
           </div>
           <div className='bg-slate-50  dark:bg-slate-800 dark:text-white py-3'>

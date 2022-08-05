@@ -8,7 +8,6 @@ module.exports = {
   theme: {
     nightwind: {
       typography: true,
-
     },
     extend: {
       backgroundImage: {
