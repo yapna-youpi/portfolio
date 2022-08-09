@@ -7,4 +7,29 @@
         /* background: #141522;
         color: white; */
     }
+    .fleche{
+        border-style: solid;
+        border-width: 0.625rem 0.625rem 0 0;
+        border-color: #e2e8f0 transparent transparent transparent;
+        content: "";
+        position: absolute;
+        left: 45%;
+    }
+}
+@layer components{
+    .fot-add{
+        @apply w-72 px-7 py-4 mx-auto sm:mx-0 dark:mr-4 dark:border dark:border-slate-300
+    }
+    .fot-ico{
+        @apply inline-flex pb-6 text-4xl text-red-400 dark:text-slate-800
+    }
+    .title-4{
+        @apply text-xl pb-2
+    }
+    .fot-parag{
+        @apply text-slate-400  dark:text-inherit
+    }
+    .fot-adresse-c{
+        @apply sm:flex justify-around  
+    }
 }

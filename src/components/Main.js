@@ -5,6 +5,7 @@ import './index.module.css'
 import Header from "./Header"
 import Footer from './Footer'
 
+
 const Main = ({ pageTitle, children }) => {
   return (
     <div className="main">
@@ -12,6 +13,7 @@ const Main = ({ pageTitle, children }) => {
       <Header />
       <main>
         {children}
+        
         
       </main>
       <Footer/>
