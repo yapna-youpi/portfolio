@@ -17,6 +17,9 @@ module.exports = {
       transitionDuration: {
         '0': '0ms',
         '2000': '2000ms',
+      },
+      colors: {
+        'orang': '#F26C4F',
       }
     },
   },
