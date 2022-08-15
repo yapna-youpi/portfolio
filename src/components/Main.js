@@ -4,7 +4,8 @@ import { Link } from 'gatsby'
 import './index.module.css'
 import Header from "./Header"
 import Footer from './Footer'
-import AboutMe from './AboutMe'
+import AboutMe from './aboutMe/AboutMe'
+import Skills from './skills/Skills'
 
 const Main = ({ pageTitle, children }) => {
   return (
@@ -14,6 +15,7 @@ const Main = ({ pageTitle, children }) => {
       <main>
         {children}
         <AboutMe />
+        <Skills />
         
       </main>
       <Footer/>

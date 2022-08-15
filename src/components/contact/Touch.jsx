@@ -6,7 +6,7 @@ import { BiMessageRoundedDetail } from 'react-icons/bi'
 
 function Touch() {
   return (
-    <div className='text-white dark:text-sky-800'>
+    <div className='text-white pt-32 dark:text-sky-800'>
         <h2 className='w-64  mx-auto text-center text-3xl font-semibold px-7 py-8 border-4 border-white-800 text-white dark:text-slate-50 dark:bg-slate-800 '>GET In Touch</h2>
         <i className='fleche mt-0 ml-96 translate-x-56'></i>
         <div className="fot-adresse block lg:flex justify-center  mt-16">

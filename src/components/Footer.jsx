@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa' 
-import Touch from './Touch'
+import Touch from './contact/Touch'
 // import {FaFacebookF} from 'react-icon/fa'
 // import { FaBeer } from 'react-icons/';
 const Icone = ()=>{

@@ -1,5 +1,8 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
+import { FaDownload } from 'react-icons/fa'
+import { HiArrowSmRight } from 'react-icons/hi'
+import HireMe from './HireMe'
 
 
 function AboutMe() {
@@ -47,9 +50,15 @@ function AboutMe() {
                         </div>
                     </div>
                 </div>
+                <hr className='my-10 w-10/12' />
+                <div className="contact-me flex">
+                    <button className='py-4 px-7 mr-10 bg-slate-500 dark:text-white flex justify-around'>Contact Me <i className='ml-2'><HiArrowSmRight size="26" /></i></button>
+                    <button className='bg-red-800 py-4 px-7 mr-10 dark:text-white dark:bg-red-500 flex justify-center'>Download Cv <i className='ml-2 translate-y-1'> <FaDownload size="15" /></i></button>
+                </div>
 
             </div>
         </div>
+        <HireMe />
     </div>
   )
 }
